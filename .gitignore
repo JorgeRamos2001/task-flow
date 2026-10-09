@@ -1,0 +1,25 @@
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Java / Maven
+task-flow-backend/target/
+*.class
+
+# Angular / Node
+task-flow-frontend/node_modules/
+task-flow-frontend/dist/
+task-flow-frontend/.angular/
+task-flow-frontend/coverage/
+
+# Tooling and local IDE state
+.idea/
+.vscode/settings.json
+.DS_Store
+*.swp
+
+# Impeccable generated reviews/build output; keep committed config.json
+.impeccable/build/
+.impeccable/review/
+.impeccable/mocks/
