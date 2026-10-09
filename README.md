@@ -43,3 +43,5 @@ npm start
 Business rules and API/event contracts live in `docs/`. Implement each capability as a vertical slice: contract, backend and tests, Angular integration, and end-to-end verification. The backend remains authoritative for authorization.
 
 See `docs/architecture/v1-scope.md` for the V1 boundaries and the linked architecture documents for detailed decisions.
+
+Backend package boundaries and layer responsibilities are described in `docs/architecture/package-structure.md`.
